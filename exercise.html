@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Personal Information</h1>
+    <form action="php">
+        <ol>
+       <li> <label for="name">Enter the name</label>
+    <input type="text" placeholder="name" size="10" id="name" name="name"> </li>
+    <li><p>Choose your Branch</p>
+    <label for="branch1"></label>
+    <input type="radio"  name="branch" id="branch1" >CSE  <br>
+    <label for="branch2"></label>
+    <input type="radio"  name="branch" id="branch2" >ME <br>
+    <label for="branch3"></label>
+    <input type="radio"  name="branch" id="branch3" >ECE  <br>
+    <label for="branch4"></label>
+    <input type="radio"  name="branch" id="branch4" >IT  <br>
+    <label for="branch5"></label>
+    <input type="radio"  name="branch" id="branch5" >EN  <br>
+    <label for="branch6"></label>
+    <input type="radio"  name="branch" id="branch6" >CIVIL  <br>
+    </li>
+    
+   <l1> <p>Select your language</p>
+    <label for="lang1"></label>
+    <input type="radio" name="lang1" id="lang1"> C  <br>
+    <label for="lang2"></label>
+    <input type="radio" name="lang2" id="lang2"> C++  <br>
+    <label for="lang3"></label>
+    <input type="radio" name="lang3" id="lang3"> JAVA  <br>
+    <label for="lang4"></label>
+    <input type="radio" name="lang4" id="lang4"> Python  <br>
+    </l1>
+    
+   <li> <label for="email">Enter your email id</label>
+    <input type="email" name="email" id="email" pattern=".+@gmail.com" size="30">  </li> <br>
+   <li> <label for="date">Enter your DOB</label>
+    <input type="date" name="date" id="date" value="2021-01-01" min="2000-01-01" max="2022-01-01">  </li>
+  <br>
+   <l1> <label for="section">Select your section</label>
+    <select name="section" id="section">
+    <option value="section"> Select your section</option>
+    <option value="Section">Section A</option>
+    <option value="Section B">Section B</option>
+    <option value="Section C">Section C</option>  
+    </select>
+    </li>  
+   <li> <p>Explain youeself</p>
+    <textarea name="explain" id="explain" cols="30" rows="5" placeholder="Explain yourself">
+    </textarea>  </li>
+    <li><p>Enter your domain</p>
+
+    <input type="checkbox" name="check" id="check1" class="red">  
+    <label for="check1">Web Development</label>    <br>
+    
+    <input type="checkbox" name="check1" id="check2" class="red">   
+    <label for="check2">Android Development</label>   <br>
+    
+    <input type="checkbox" name="check" id="check3" class="red">   
+    <label for="check3">Artificial Intelligence/Machine Learing</label>   <br>
+     
+    <input type="checkbox" name="check" id="check4" class="red">  
+    <label for="check4">AR/VR</label> <br>
+    
+    <input type="checkbox" name="check" id="check5" class="red">  
+    <label for="check5">Cloud Computing</label>  <br>
+    
+    <input type="checkbox" name="check" id="check6" class="red">   
+    <label for="check6">IOT</label>    <br>  </li>
+   
+
+   <li> <label for="rate">Rate your coding skill out of 10</label>
+    <input type="range" id="rate" name="rate" min="1" max="10">    </li> <br>
+
+  <li>  <label for="username">Enter your codechef username</label>
+     <input type="text" id="username" name="username" width="10" >   </li>  <br>
+   <li> <label for="pass">Enter your password</label>
+     <input type="password" id="pass" name="pass" minlength="8" requied>  </li>  <br>
+
+  <li>  <label for="photo">Insert your certificate</label>
+    <input type="file" id="photo" name="photo" accept="image/png , image/jpeg"> </li> <br>
+    <li> <label for="submit">Click here to submit the form</label>
+         <input type="submit" value="Submit" > </li>  <br>
+  </ol>
+
+    </form>
+    
+</body>
+</html>
